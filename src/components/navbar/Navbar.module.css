@@ -1,0 +1,29 @@
+.navWrapper {
+  grid-area: n;
+  background-color: #E0E1DD;
+}
+
+.navWrapper ul {
+  padding-inline: 0;
+  padding-inline-start: 20px;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.navWrapper ul li {
+  list-style: none;
+  padding: 10px 5px;
+  margin-top: 1px;
+}
+
+.navLink {
+  text-decoration: none;
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  font-weight: bold;
+  color: #464a4e
+}
+
+.navWrapper ul li:hover, .navWrapper ul li:focus {
+  background-color: #e7e9e0;
+}
